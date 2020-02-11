@@ -26,8 +26,8 @@ All helpers are invoked as any other normal ember helper.
 
 Contents
 ------------------------------------------------------------------------------
-[`debug`](#debug)
-['invert-bool']('invert-bool)
++ [`debug`](#debug)
++ [`invert-bool`](#invert-bool)
 
 Helpers
 ------------------------------------------------------------------------------
