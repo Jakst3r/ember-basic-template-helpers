@@ -7,8 +7,9 @@ This add-on provides some very basic helpers for simple use cases. It aims to av
 Compatibility
 ------------------------------------------------------------------------------
 
-* Ember.js v2.18 or above
+* Ember.js v3.4 or above
 * Ember CLI v2.13 or above
+* Node.js v8 or above
 
 
 Installation
