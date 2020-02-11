@@ -26,6 +26,7 @@ All helpers are invoked as any other normal ember helper.
 Contents
 ------------------------------------------------------------------------------
 [`debug`](#debug)
+['invert-bool']('invert-bool)
 
 Helpers
 ------------------------------------------------------------------------------
@@ -34,6 +35,15 @@ Adds a number a DEBUG line to the console for each string argument passed to the
 
 ```hbs
 {{db "A Debug Message" "Another Debug Message"}}
+```
+
+#### `invert-bool`
+Takes a boolean value as the first argument and returns the opposite value
+
+```hbs
+{{invert-bool true}}
+
+returns false
 ```
 
 
