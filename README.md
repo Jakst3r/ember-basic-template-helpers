@@ -30,7 +30,7 @@ Contents
 
 Helpers
 ------------------------------------------------------------------------------
-`debug`
+# `debug`
 Adds a number a DEBUG line to the console for each string argument passed to the helper.
 
 ```hbs
