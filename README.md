@@ -1,7 +1,7 @@
 ember-basic-template-helpers
 ==============================================================================
 
-[Short description of the addon.]
+This add-on provides some very basic helpers for simple use cases. It aims to avoid adding extra CSS selectors or computed properties to service basic template needs.
 
 
 Compatibility
@@ -21,8 +21,7 @@ ember install ember-basic-template-helpers
 
 Usage
 ------------------------------------------------------------------------------
-
-This add-on provides some very basic helpers for simple use cases. It aims to avoid adding extra CSS selectors or computed properties to service basic template needs.
+All helpers are invoked as any other normal ember helper.
 
 Contents
 ------------------------------------------------------------------------------
