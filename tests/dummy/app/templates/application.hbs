@@ -1,20 +1,30 @@
 <h2 id="title">
   Ember Basic Template Helpers
 </h2>
-{{!-- {{outlet}} --}}
-<h2>
-  Debug Helper
-</h2>
-<p>
-  A helper that prints an unlimited number of strings to the console. Each string should be a seperate argument.
-</p>
-<h4>
-  Example:
-</h4>
-<p>
-  \{{db "Debug Message" "Another Debug Message"}}
-</p>
-<p>
-  Check the console to see the above messages.
-</p>
-{{db "Debug Message" "Another Debug Message"}}
+<div>
+  <h2>
+    Debug
+  </h2>
+  <p>
+    A helper that prints an unlimited number of strings to the console. Each string should be a seperate argument.
+  </p>
+  <h4>
+    Example:
+  </h4>
+  <p>
+    \{{db "Debug Message" "Another Debug Message"}}
+  </p>
+  <p>
+    Check the console to see the above messages.
+  </p>
+  {{db "Debug Message" "Another Debug Message"}}
+</div>
+<div>
+  <h2>Invert Boolean </h2>
+  <p>Takes a boolean and returns the opposite value</p>
+  <h4>Example:</h4>
+  <p>
+    \{{invert-bool true}}
+  </p>
+  <p> output: {{invert-bool true}}</p>
+</div>
