@@ -28,6 +28,8 @@ Contents
 ------------------------------------------------------------------------------
 + [`debug`](#debug)
 + [`invert-bool`](#invert-bool)
++ [`capitalise`](#capitalise)
+
 
 Helpers
 ------------------------------------------------------------------------------
@@ -45,6 +47,13 @@ Takes a boolean value as the first argument and returns the opposite value
 {{invert-bool true}}
 
 returns false
+```
+
+#### `capitalise`
+Takes a boolean value as the first argument and returns the opposite value
+
+```hbs
+{{capitalise 'string'}}
 ```
 
 
