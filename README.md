@@ -50,7 +50,7 @@ returns false
 ```
 
 #### `capitalise`
-Takes a boolean value as the first argument and returns the opposite value
+Takes a string of any case and return the same string in uppercase
 
 ```hbs
 {{capitalise 'string'}}
