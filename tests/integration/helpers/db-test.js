@@ -13,7 +13,7 @@ module('Integration | Helper | db', function (hooks) {
     db(this.get('strings'))
     //eslint-disable-next-line
     this.set('count', console.debugs.length)
-
-    assert.equal(this.get('count'), 2)
+    //eslint-disable-next-line
+    assert.equal(this.get('count'), 2, `Console.debugs array length was 2 -  entries were ${console.debugs}`)
   });
 });
