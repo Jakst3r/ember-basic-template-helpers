@@ -30,6 +30,7 @@ Contents
 + [`debug`](#debug)
 + [`invert-bool`](#invert-bool)
 + [`capitalise`](#capitalise)
++ [`decapitalise`](#decapitalise)
 
 
 Helpers
@@ -56,6 +57,14 @@ Takes a string of any case and return the same string in uppercase
 ```hbs
 {{capitalise 'string'}}
 ```
+
+#### `decapitalise`
+Takes a string of any case and return the same string in uppercase
+
+```hbs
+{{decapitalise 'string'}}
+```
+
 
 
 Contributing
