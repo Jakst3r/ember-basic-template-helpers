@@ -5,11 +5,13 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abueloshika/ember-basic-template-helpers.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Dan Bradley",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -55,5 +57,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/abueloshika/ember-basic-template-helpers/issues"
+  },
+  "homepage": "https://github.com/abueloshika/ember-basic-template-helpers#readme"
 }
