@@ -35,7 +35,7 @@ Contents
 Helpers
 ------------------------------------------------------------------------------
 #### `debug`
-Adds a number a DEBUG line to the console for each string argument passed to the helper.
+Adds a new DEBUG line to the console for each string argument passed to the helper.
 
 ```hbs
 {{db "A Debug Message" "Another Debug Message"}}
