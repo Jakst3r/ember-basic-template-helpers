@@ -59,7 +59,7 @@ Takes a string of any case and return the same string in uppercase
 ```
 
 #### `lowercase`
-Takes a string of any case and return the same string in uppercase
+Takes a string of any case and return the same string in lowercase
 
 ```hbs
 {{lowercase 'string'}}
