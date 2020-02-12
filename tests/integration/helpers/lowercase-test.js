@@ -3,7 +3,7 @@ import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 
-module('Integration | Helper | decapitalise', function (hooks) {
+module('Integration | Helper | lowercase', function (hooks) {
   setupRenderingTest(hooks);
 
   // Replace this with your real tests.
@@ -11,7 +11,7 @@ module('Integration | Helper | decapitalise', function (hooks) {
     this.set('string', 'TeSTeR')
 
 
-    await render(hbs`{{decapitalise string}}`);
+    await render(hbs`{{lowercase string}}`);
 
     assert.equal(this.element.textContent.trim(), 'tester', `Result was ${this.element.textContent.trim()}`);
   });
