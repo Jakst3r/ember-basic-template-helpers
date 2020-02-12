@@ -1,5 +1,6 @@
 ember-basic-template-helpers
 ==============================================================================
+**Note: This is a learning project and not intended for production level applications**
 
 This add-on provides some very basic helpers for simple use cases. It aims to avoid adding extra CSS selectors or computed properties to service basic template needs.
 
@@ -50,7 +51,7 @@ returns false
 ```
 
 #### `capitalise`
-Takes a boolean value as the first argument and returns the opposite value
+Takes a string of any case and return the same string in uppercase
 
 ```hbs
 {{capitalise 'string'}}
