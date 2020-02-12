@@ -59,7 +59,7 @@ Takes a string of any case and return the same string in uppercase
 ```
 
 #### `decapitalise`
-Takes a string of any case and return the same string in uppercase
+Takes a string of any case and return the same string in lowercase
 
 ```hbs
 {{decapitalise 'string'}}
