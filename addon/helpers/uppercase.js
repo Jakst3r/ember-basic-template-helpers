@@ -1,7 +1,7 @@
 import { helper } from '@ember/component/helper';
 
-export function capitalise(params/*, hash*/) {
+export function uppercase(params/*, hash*/) {
   return params[0].toUpperCase();
 }
 
-export default helper(capitalise);
+export default helper(uppercase);

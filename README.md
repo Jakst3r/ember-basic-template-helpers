@@ -29,8 +29,8 @@ Contents
 ------------------------------------------------------------------------------
 + [`debug`](#debug)
 + [`invert-bool`](#invert-bool)
-+ [`capitalise`](#capitalise)
-+ [`decapitalise`](#decapitalise)
++ [`uppercase`](#uppercase)
++ [`lowercase`](#lowercase)
 
 
 Helpers
@@ -51,18 +51,18 @@ Takes a boolean value as the first argument and returns the opposite value
 returns false
 ```
 
-#### `capitalise`
+#### `uppercase`
 Takes a string of any case and return the same string in uppercase
 
 ```hbs
 {{capitalise 'string'}}
 ```
 
-#### `decapitalise`
+#### `lowercase`
 Takes a string of any case and return the same string in uppercase
 
 ```hbs
-{{decapitalise 'string'}}
+{{lowercase 'string'}}
 ```
 
 
